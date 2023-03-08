@@ -1,0 +1,114 @@
+#header {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 630px;
+  height: 550px;
+}
+
+.btn-header {
+  margin-top: 270px;
+}
+
+.img-head2 {
+  margin-top: 240px;
+}
+
+#vertical-text1 {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-weight: bold;
+  font-size: 85px;
+}
+
+#hover1:hover {
+  color: #06dbf7a8;
+}
+#hover2:hover {
+  background-color: black;
+  color: #f7b106;
+}
+
+#project {
+  display: inline-block;
+  width: 1116px;
+  height: 105px;
+  background-color: transparent;
+}
+
+#bg-project {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 630px;
+  height: 550px;
+}
+
+#nav2 {
+  display: inline-block;
+}
+
+#span-home {
+  display: inline-block;
+  width: 100%;
+  height: 95px;
+  background-color: transparent;
+  border-color: #f7b106;
+}
+
+@media screen and (max-width: 576px) {
+  .bg-head {
+    padding-top: 100px;
+  }
+  #header {
+    margin: auto;
+  }
+  .btn-header {
+    margin-top: 240px;
+    height: 70px;
+    width: 100%;
+  }
+  .img-head1 {
+    width: 100%;
+    height: 100%;
+  }
+  .img-head2 {
+    width: 100%;
+    height: 100%;
+  }
+  .text-clients1 {
+    font-size: 80%;
+    text-align: end;
+    margin: 10px;
+  }
+  .bg-clients {
+    padding: 1px;
+  }
+  .img-clients {
+    width: 132px;
+    height: 132px;
+  }
+  .img-clients1 {
+    width: 132px;
+    height: 132px;
+  }
+  #hover1 {
+    font-size: 12.6px;
+  }
+  .txt-hv2 {
+    font-size: xx-large;
+  }
+  .button-footer {
+    padding: 100px;
+  }
+  .img-clients2 {
+    width: 132px;
+    height: 132px;
+  }
+  .text-clients2 {
+    font-size: 80%;
+    text-align: end;
+    margin: 10px;
+  }
+  .img-about {
+    background-size: 100svw;
+  }
+}
